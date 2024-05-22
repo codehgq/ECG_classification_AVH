@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/checkpoint" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/figure" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/onnx" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/save" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/save/CNN" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tensorboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tflite" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sct" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/trainData" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.7 (2)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

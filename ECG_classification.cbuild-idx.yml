@@ -1,0 +1,12 @@
+build-idx:
+  generated-by: csolution version 2.2.1
+  csolution: ECG_classification.csolution.yml
+  cprojects:
+    - cproject: ECG_classification.cproject.yml
+  cbuilds:
+    - cbuild: ECG_classification+PaddleClasM55.cbuild.yml
+      project: ECG_classification
+      configuration: +PaddleClasM55
+    - cbuild: ECG_classification+PaddleClasM85.cbuild.yml
+      project: ECG_classification
+      configuration: +PaddleClasM85
