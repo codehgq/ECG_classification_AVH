@@ -21,4 +21,4 @@
  - R：Right bundle branch block beat  右心室的电信号传导受阻，心电图上的心跳形态同样表现为异常
  - V：Premature ventricular contraction 室性早搏，来自心室的早期心跳，常见于正常人和心脏疾病患者
  - I：Isolated QRS-like artifact 孤立的QRS类似伪差，心电图上的伪差，看起来像是QRS波群，但实际上不是由正常的心电活动产生的
-<img width="417" alt="43b44fff8f9824fb4264d4b50172b0b" src="https://github.com/codehgq/ECG_classification_AVH/assets/39193613/5a00b987-9c81-4c65-bf08-d9c72eeac605">
+  <img width="417" alt="43b44fff8f9824fb4264d4b50172b0b" src="https://github.com/codehgq/ECG_classification_AVH/assets/39193613/5a00b987-9c81-4c65-bf08-d9c72eeac605">
