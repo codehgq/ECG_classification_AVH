@@ -4,7 +4,7 @@
       "executors": [
         "aot"
       ],
-      "export_datetime": "2024-05-22 00:01:08Z",
+      "export_datetime": "2024-05-23 19:37:04Z",
       "external_dependencies": [
         {
           "short_name": "tvm_standalone_crt",
@@ -82,7 +82,7 @@
               ]
             },
             {
-              "function_name": "tvmgen_cls_fused_expand_dims_reshape",
+              "function_name": "tvmgen_cls_fused_squeeze_add_nn_relu_expand_dims_1",
               "workspace": [
                 {
                   "device": 1,
@@ -91,7 +91,7 @@
               ]
             },
             {
-              "function_name": "tvmgen_cls_fused_nn_max_pool2d",
+              "function_name": "tvmgen_cls_fused_expand_dims_reshape",
               "workspace": [
                 {
                   "device": 1,
@@ -136,7 +136,7 @@
               ]
             },
             {
-              "function_name": "tvmgen_cls_fused_nn_max_pool2d_1",
+              "function_name": "tvmgen_cls_fused_squeeze_add_nn_relu_multiply_add_expand_dims_reshape_1",
               "workspace": [
                 {
                   "device": 1,
@@ -146,6 +146,15 @@
             },
             {
               "function_name": "tvmgen_cls_fused_squeeze_add_nn_relu_multiply_add_expand_dims_reshape",
+              "workspace": [
+                {
+                  "device": 1,
+                  "workspace_size_bytes": 0
+                }
+              ]
+            },
+            {
+              "function_name": "tvmgen_cls_fused_nn_max_pool2d_1",
               "workspace": [
                 {
                   "device": 1,
@@ -172,16 +181,7 @@
               ]
             },
             {
-              "function_name": "tvmgen_cls_fused_squeeze_add_nn_relu_multiply_add_expand_dims_reshape_1",
-              "workspace": [
-                {
-                  "device": 1,
-                  "workspace_size_bytes": 0
-                }
-              ]
-            },
-            {
-              "function_name": "tvmgen_cls_fused_squeeze_add_nn_relu_expand_dims_1",
+              "function_name": "tvmgen_cls_fused_nn_max_pool2d",
               "workspace": [
                 {
                   "device": 1,

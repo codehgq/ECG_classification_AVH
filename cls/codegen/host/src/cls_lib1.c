@@ -679,21 +679,21 @@ TVM_DLL int32_t tvmgen_cls_fused_squeeze_add_nn_relu_transpose_reshape(float* p0
 extern "C"
 #endif
 TVM_DLL int32_t tvmgen_cls___tvm_main__(float* x_buffer_var, float* output_buffer_var, uint8_t* global_const_workspace_0_var, uint8_t* global_workspace_1_var) {
-  void* sid_9_let = (&(global_workspace_1_var[0]));
-  void* sid_11_let = (&(global_workspace_1_var[51200]));
-  void* sid_7_let = (&(global_workspace_1_var[140800]));
   void* sid_12_let = (&(global_workspace_1_var[0]));
-  void* sid_6_let = (&(global_workspace_1_var[0]));
-  void* sid_10_let = (&(global_workspace_1_var[0]));
-  void* sid_2_let = (&(global_workspace_1_var[614400]));
-  void* sid_13_let = (&(global_workspace_1_var[0]));
+  void* sid_11_let = (&(global_workspace_1_var[51200]));
+  void* sid_9_let = (&(global_workspace_1_var[0]));
   void* sid_8_let = (&(global_workspace_1_var[140800]));
-  void* sid_1_let = (&(global_workspace_1_var[52000]));
-  void* sid_4_let = (&(global_workspace_1_var[819200]));
+  void* sid_2_let = (&(global_workspace_1_var[614400]));
+  void* sid_7_let = (&(global_workspace_1_var[140800]));
   void* sid_3_let = (&(global_workspace_1_var[0]));
+  void* sid_10_let = (&(global_workspace_1_var[0]));
+  void* sid_1_let = (&(global_workspace_1_var[52000]));
+  void* sid_13_let = (&(global_workspace_1_var[0]));
   void* sid_5_let = (&(global_workspace_1_var[819200]));
-  void* sid_14_let = (&(global_workspace_1_var[143360]));
+  void* sid_4_let = (&(global_workspace_1_var[819200]));
+  void* sid_6_let = (&(global_workspace_1_var[0]));
   void* sid_15_let = (&(global_workspace_1_var[143360]));
+  void* sid_14_let = (&(global_workspace_1_var[143360]));
   void* sid_16_let = (&(global_workspace_1_var[0]));
   void* sid_17_let = (&(global_workspace_1_var[0]));
   void* sid_18_let = (&(global_workspace_1_var[0]));

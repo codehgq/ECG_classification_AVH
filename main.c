@@ -29,7 +29,8 @@ int main(){
 		if(output[i] > output[index]){
 			index = i;
 		}
+		printf(" Confidence is %f\n", output[i]);
 	}
-  printf("ECGClassification_Result-Index is %d; Confidence is %f; Label is %s\n", index, output[index], labels[index]);
+  printf("Index is %d; Confidence is %f; Label is %s\n", index, output[index], labels[index]);
 	printf("EXITTHESIM\r\n");
 }
