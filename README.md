@@ -104,14 +104,14 @@ $VHT_Platform  -C cpu0.CFGDTCMSZ=15 \
   
 ## 参考
 
-【1】[https://www.arm.com/products/development-tools/simulation/virtual-hardware]Virtual Hardware – Software Development Without Hardware – Arm®
+【1】[https://www.arm.com/products/development-tools/simulation/virtual-hardware] Virtual Hardware – Software Development Without Hardware – Arm®
 
-【2】[http://share.recan-li.cn/iot-demo.html#1%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B]iot-demo
+【2】[http://share.recan-li.cn/iot-demo.html#1%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B] iot-demo
 
-【3】[https://tvm.apache.org/docs/how_to/work_with_microtvm/micro_tvmc.html#tutorial-micro-cli-tool]1. microTVM CLI Tool — tvm 0.17.dev0 documentation
+【3】[https://tvm.apache.org/docs/how_to/work_with_microtvm/micro_tvmc.html#tutorial-micro-cli-tool] 1. microTVM CLI Tool — tvm 0.17.dev0 documentation
 
-【4】[https://github.com/ArmDeveloperEcosystem/Paddle-examples-for-AVH]Paddle-examples-for-AVH 
+【4】[https://github.com/ArmDeveloperEcosystem/Paddle-examples-for-AVH] Paddle-examples-for-AVH 
 
-【5】[https://blog.csdn.net/heda3/article/details/]博客链接
+【5】[https://blog.csdn.net/heda3/article/details/] 博客链接
 
   
