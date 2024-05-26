@@ -91,9 +91,8 @@ $VHT_Platform  -C cpu0.CFGDTCMSZ=15 \
               -C mps3_board.telnetterminal5.start_telnet=0 \
               "out/ECG_classification/PaddleClas$RUN_DEVICE_NAME/ECG_classification.axf" \
               --stat
- ```
-    ​
-## 运行结果
+  ```
+ ## 运行结果
 标签为："A","B","L","N","R","V","|"分别表示为：
  - A：Atrial premature contraction 房性早搏，来自心房的早期心跳，比正常心跳提前出现
  - B：Left or right bundle branch block  左或右束支传导阻滞，表示心电图上可能出现左束支阻滞或右束支阻滞，具体需要通过波形分析确定是左侧还是右侧
