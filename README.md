@@ -103,12 +103,15 @@ $VHT_Platform  -C cpu0.CFGDTCMSZ=15 \
   <img width="417" alt="43b44fff8f9824fb4264d4b50172b0b" src="https://github.com/codehgq/ECG_classification_AVH/assets/39193613/5a00b987-9c81-4c65-bf08-d9c72eeac605">
   
 ## 参考
+
 【1】[https://www.arm.com/products/development-tools/simulation/virtual-hardware]Virtual Hardware – Software Development Without Hardware – Arm®
 
-【2】iot-demo
+【2】[http://share.recan-li.cn/iot-demo.html#1%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B]iot-demo
 
-【3】1. microTVM CLI Tool — tvm 0.17.dev0 documentation
+【3】[https://tvm.apache.org/docs/how_to/work_with_microtvm/micro_tvmc.html#tutorial-micro-cli-tool]1. microTVM CLI Tool — tvm 0.17.dev0 documentation
 
-【4】Paddle-examples-for-AVH 
+【4】[https://github.com/ArmDeveloperEcosystem/Paddle-examples-for-AVH]Paddle-examples-for-AVH 
+
+【5】[https://blog.csdn.net/heda3/article/details/]博客链接
 
   
