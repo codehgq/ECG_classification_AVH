@@ -52,8 +52,7 @@ pip install onnx
     python -m tf2onnx.convert --saved-model save/CNN --output  onnx/cnn_model.onnx
     ```
    - 模型转换为tvm
-     ```bash
-    TVM_TARGET="cortex-m55"
+     ```bash TVM_TARGET="cortex-m55"
     sudo python3 -m tvm.driver.tvmc compile --target=cmsis-nn,c \
     --target-cmsis-nn-mcpu=$TVM_TARGET \
     --target-c-mcpu=$TVM_TARGET \
