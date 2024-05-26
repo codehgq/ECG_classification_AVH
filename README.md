@@ -6,7 +6,34 @@
    基于TensorFlow框架训练，模型结构为（CNN网络架构）,保存输出为pb格式。
 - 部署流程
   - 数据加载
+    -- convert_ECGData.py
+    -- convert_labels.py
   - 模型转换
+    #### 模型转换为onnx
+    '''
+    python -m tf2onnx.convert --saved-model save/CNN --output  onnx/cnn_model.onnx
+    '''
+    #### 模型转换为tvm
+    '''
+    TVM_TARGET="cortex-m55"
+    sudo python3 -m tvm.driver.tvmc compile --target=cmsis-nn,c \
+    --target-cmsis-nn-mcpu=$TVM_TARGET \
+    --target-c-mcpu=$TVM_TARGET \
+    --runtime=crt \
+    --executor=aot \
+    --executor-aot-interface-api=c \
+    --executor-aot-unpacked-api=1 \
+    --pass-config tir.usmp.enable=1 \
+    --pass-config tir.usmp.algorithm=hill_climb \
+    --pass-config tir.disable_storage_rewrite=1 \
+    --pass-config tir.disable_vectorize=1 \
+    cnn_model.onnx \
+    --output-format=mlf \
+    --model-format=onnx \
+    --input-shapes x:[1,3600] \
+    --module-name=cls \
+    --output=cls.tar
+    '''
   - 编译环境及配置
   - 模型编译
   - 模型运行
