@@ -47,12 +47,12 @@ pip install onnx
     -- convert_ECGData.py
     -- convert_labels.py
  ### 模型转换
-    - 模型转换为onnx
+    模型转换为onnx
     ```bash
     python -m tf2onnx.convert --saved-model save/CNN --output  onnx/cnn_model.onnx
     ```
-   - 模型转换为tvm
-     ```bash TVM_TARGET="cortex-m55"
+   模型转换为tvm
+  ```bash TVM_TARGET="cortex-m55"
     sudo python3 -m tvm.driver.tvmc compile --target=cmsis-nn,c \
     --target-cmsis-nn-mcpu=$TVM_TARGET \
     --target-c-mcpu=$TVM_TARGET \
@@ -70,7 +70,7 @@ pip install onnx
     --input-shapes x:[1,3600] \
     --module-name=cls \
     --output=cls.tar
-    ```
+  ```
  ### 模型编译
  ```bash
  RUN_DEVICE_NAME="M55"
