@@ -73,8 +73,8 @@ pip install onnx
   ```
  ### 模型编译
  ```bash
- RUN_DEVICE_NAME="M55"
- cbuild object_classification+PaddleClas$RUN_DEVICE_NAME.cprj
+RUN_DEVICE_NAME="M55"
+cbuild ECG_classification+PaddleClas$RUN_DEVICE_NAME.cprj
  ```
  ### 模型运行
  ```bash
