@@ -1,1 +1,1 @@
-char* labels[] __attribute__((section(".data.tvm"), aligned(16))) = {"A","B","L","N","R","V","|",};
+char* labels[] __attribute__((section(".data.tvm"), aligned(16))) = {"Atrial premature contraction","Left or right bundle branch block","Left bundle branch block beat","Normal","Right bundle branch block beat","Premature ventricular contraction","Isolated QRS-like artifact",};
