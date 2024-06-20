@@ -17,7 +17,7 @@ __asm("  .global __ARM_use_no_argv\n");
 int main(){
   stdout_init();
 	struct tvmgen_cls_inputs cls_inputs = {
-		.x = input,
+		.input_1 = input,
 	};
 	struct tvmgen_cls_outputs cls_outputs = {
 		.output = output,
